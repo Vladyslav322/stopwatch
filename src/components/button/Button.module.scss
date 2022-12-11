@@ -1,0 +1,30 @@
+.button {
+
+    &__container {
+
+    }
+
+    &__container_group {
+        display: flex;
+        width: 100%;
+    }
+
+    &__item {
+        color: azure;
+        background-color: rgba(40, 1, 1, 0.8);
+        border: 1px solid darkred;
+        padding: 10px;
+    }
+
+    &__start {
+
+    }
+
+    &__reset {
+
+    }
+
+    &__resume {
+
+    }
+}
