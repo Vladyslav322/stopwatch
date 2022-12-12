@@ -7,6 +7,7 @@
     &__container_group {
         display: flex;
         width: 100%;
+        gap: 40px;
     }
 
     &__item {
@@ -14,6 +15,7 @@
         background-color: rgba(40, 1, 1, 0.8);
         border: 1px solid darkred;
         padding: 10px;
+        width: 90px;
     }
 
     &__start {

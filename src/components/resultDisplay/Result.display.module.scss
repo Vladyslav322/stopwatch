@@ -1,8 +1,43 @@
 .result {
 
-    &__item {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        max-width: 300px;
         width: 100%;
-        border: 1px solid black;
         padding: 20px;
+
+        color: azure;
     }
+
+    &__item {
+        display: block;
+    }
+
+    &__title_container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 20px !important;
+        border: none !important;
+    }
+
+    &__title {
+        width: 10px !important;
+    }
+
+    &__item_container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.min {
+    color: #008000;
+}
+
+.max {
+    color: #ff0000;
 }

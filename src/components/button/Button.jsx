@@ -10,7 +10,7 @@ const Button = (props) => {
         </button>
     );
 
-    const activeBtn = (
+    const activeBtns = (
         <div className="button__container_group">
             {
                 props.pausedTimer === false && props.startTimer === true ?
@@ -37,10 +37,9 @@ const Button = (props) => {
         </div>
     );
 
-
     return (
         <div className="button__container">
-            {props.active ? activeBtn : startBtn}
+            {props.active ? activeBtns : startBtn}
         </div>
     );
 };
